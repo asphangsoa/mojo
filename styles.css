@@ -1,4 +1,8 @@
-.philosophy-section {
+body {
+  background-color: "purple";
+}
+
+philosophy-section {
   display: inline-block;
   width: 260px;
   margin-right: 10px;
