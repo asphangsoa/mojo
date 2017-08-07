@@ -1,11 +1,9 @@
 body {
-  background-color: purple;
+    background-color: powderblue;
 }
-
-philosophy-section {
-  display: inline-block;
-  width: 260px;
-  margin-right: 10px;
-  background-color: lime;
-  text-align: center;
+h1 {
+    color: blue;
+}
+p {
+    color: red;
 }
