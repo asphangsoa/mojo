@@ -1,12 +1,17 @@
-body {
-    background-color: powderblue;
-}
-h1 {
+@media (max-width: 560px) {
+  body {
+    background-color: purple;
+  }
+  h1 {
     color: blue;
-}
-p {
+  }
+  p {
     color: red;
-}
-.philosophy-section {
-  text-align: center;
+  }
+  .philosophy-section{
+    display: inline-block;
+    text-align: center;
+    min-width: 200px;
+    max-width: 300px;
+  }
 }
