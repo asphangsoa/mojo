@@ -1,6 +1,8 @@
   * {
     box-sizing: border-box;
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
   }
   .main-container {
     text-align: center;
@@ -9,10 +11,16 @@
   .contentSection {
     position: relative;
     display: block;
-    padding: 0 0 50px 0;
   }
-  .introduction.grid-1-2 {
+  .introduction .grid-break {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .introduction .grid-1-2 {
     width: 50%;
+    flex-grow: 1;
     padding-left: 0;
     display: inline-block;
     text-align: left;
@@ -21,24 +29,33 @@
   .introduction .grid-1-2 .text-wrapper {
     position: relative;
     padding-left: 50px;
-    padding-top: 100px;
+    padding-top: 200px;
   }
-  .introduction > h1 {
-    color: #4B0082;
-    font-size: 48px;
-    line-height: 1.1rem;
+  .introduction > * {
+    line-height: 1.1;
+  }
+  .introduction .companyTitle {
+    color: #551A8B;
+    font-size: 80px;
+    padding: 0;
+    margin: 50px 0;
+  }
+  .introduction .valueProposition {
+    color: #7F34DF;
+    font-size: 50px
+
   }
   .introduction .titlePhoto {
     background: url(/mojo/images/coffee-cup-image.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    flex-shrink: 1;
     height: 650px;
-    width: 825px;
-    padding: right;
   }
-
   .contentSection.philosophy {
+    padding: 40px;
+    background-color: #551A8B;
     text-align: center;
   }
   .philosophy-section {
