@@ -113,11 +113,27 @@
   background-color: #C39CE2;
   display: block;
   padding: 25px;
-  margin: 20px;
+  margin: 40px 20px;
+  height: 450px;
 }
-.teamSection img {
+.teamSection .ninja img {
     border-radius: 50%;
-    width: 280px;
+    width: 320px;
+}
+.teamSection .ninja > * {
+  margin-bottom: 10px;
+}
+.teamSection .ninja .name {
+  font-size: 24px;
+  color: #551A8B;
+}
+.teamSection .ninja .title {
+  font-size: 18px;
+  color: #ececec;
+}
+.teamSection .ninja .bio {
+  font-size: 18px;
+  color: #fff;
 }
 
 
