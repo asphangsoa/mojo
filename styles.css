@@ -114,7 +114,7 @@
   display: block;
   padding: 25px;
   margin: 40px 20px;
-  height: 500px;
+  height: 550px;
 }
 .teamSection .ninja img {
     border-radius: 50%;
@@ -135,7 +135,12 @@
   font-size: 18px;
   color: #fff;
 }
-
+.teamSection .newRecruit {
+  width: 50px;
+  height: 20px;
+  background-color: #7F34DF;
+  margin: 15px;
+}
 
 
 
